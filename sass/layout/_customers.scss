@@ -1,0 +1,20 @@
+.customers {
+    padding-top: var(--section-padding-gap);
+    padding-bottom: var(--section-padding-gap);
+}
+
+
+
+.all-customers>li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.icons-customers:hover,
+.icons-customers:focus {
+    border: 1px solid var(--accent-color);
+}
+
+.icons-customers:hover svg,
+.icons-customers:focus svg {
+    fill: var(--accent-color);
+}
