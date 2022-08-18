@@ -8,16 +8,9 @@
     margin-top: 16px;
     padding-left: 32px;
     padding-right: 32px;
-}
-
-.icon-team>li:not(:first-child) {
+    >li:not(:first-child) {
     margin-left: 10px;
-}
-
-.icon-social:hover,
-.icon-social:focus {
-    background-color: var(--accent-color);
-    border-radius: 50%;
+};
 }
 
 .icon-social:hover svg,
@@ -37,4 +30,9 @@
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+                background-color: var(--accent-color);
+                border-radius: 50%;
+            };
 }
