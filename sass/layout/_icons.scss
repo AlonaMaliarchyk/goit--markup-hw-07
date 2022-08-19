@@ -1,9 +1,7 @@
 .icon {
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.icon-team {
+    &-team {
     display: flex;
     margin-top: 16px;
     padding-left: 32px;
@@ -12,10 +10,6 @@
     margin-left: 10px;
 };
 }
-
-.icon-social:hover svg,
-.icon-social:focus svg {
-    fill: #FFFFFF;
 }
 
 .icon-social {
@@ -35,4 +29,8 @@
                 background-color: var(--accent-color);
                 border-radius: 50%;
             };
+    &:hover svg,
+    &:focus svg {
+    fill: #FFFFFF;
+}        
 }

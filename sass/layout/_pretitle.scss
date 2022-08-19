@@ -2,10 +2,7 @@
     color: var(--secendery-text-color);
 }
 
-.pretitle {
-    color: var(--primery-text-color);
-    margin-bottom: var(--title-margin-bottom)
-}
+
 
 .pretitle {
     font-style: normal;
@@ -15,4 +12,8 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    & {
+    color: var(--primery-text-color);
+    margin-bottom: var(--title-margin-bottom)
+}
 }

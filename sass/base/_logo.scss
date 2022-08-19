@@ -1,4 +1,4 @@
-.logo {
+.header-logo__logo {
     text-decoration: none;
     color: #000000;
     font-family: 'Raleway', sans-serif;
@@ -7,8 +7,9 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     margin-right: 94px;
-&-color {
-    color: var(--accent-color);
-    margin-right: auto;}
+
 }
 
+.header-logo__color {
+    color: var(--accent-color);
+    margin-right: auto;}

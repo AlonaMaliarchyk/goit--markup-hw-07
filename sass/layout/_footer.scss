@@ -2,38 +2,35 @@
     background-color: #2F303A;
     padding-top: var(--footer-padding-gap);
     padding-bottom: var(--footer-padding-gap);
-}
-
-
-.footer-logo {
+&-logo {
     color: #FFFFFF;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-}
+};
 
-.footer-padding {
+&-padding {
     padding-bottom: 60px;
-}
+};
 
-.footer-logo-container {
+&-logo-container {
     margin-bottom: 20px;
-}
+};
 
-.footer-color {
+&-color {
     color: var(--accent-color);
-}
+};
 
-.footer-address {
+&-address {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     &{
             color: #FFFFFF;
         }
+};
 }
-
 
 .contacts-address {
     font-style: normal;
