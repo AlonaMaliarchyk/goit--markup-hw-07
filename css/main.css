@@ -34,20 +34,17 @@ ul,
 ol {
   margin: 0;
   padding-left: 0;
+  list-style: none;
 }
 
-.list {
-  list-style: none;
+a {
+  text-decoration: none;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   background-color: #FFFFFF;
   color: #212121;
-}
-
-.link {
-  text-decoration: none;
 }
 
 a {
@@ -93,7 +90,7 @@ img {
   margin: -1px;
 }
 
-.submit, .btn-subscribe, .hero-button {
+.submit, .btn-subscribe, .hero__button {
   color: #FFFFFF;
   background-color: #2196F3;
   font-family: inherit;
@@ -231,7 +228,7 @@ site-nav__link:hover, site-nav__link:focus {
   width: 696px;
   margin: 0 auto;
 }
-.hero-title {
+.hero__title {
   color: #FFFFFF;
   font-weight: 900;
   font-size: 44px;
@@ -241,7 +238,7 @@ site-nav__link:hover, site-nav__link:focus {
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-.hero-button:hover, .hero-button:focus {
+.hero__button:hover, .hero__button:focus {
   background-color: #188CE8;
 }
 
@@ -275,10 +272,10 @@ site-nav__link:hover, site-nav__link:focus {
   margin-bottom: var(--title-margin-bottom);
 }
 
-.benefits-list {
+.benefit {
   color: var(--primery-text-color);
 }
-.benefits-list .title {
+.benefit__title {
   color: var(--primery-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -287,14 +284,14 @@ site-nav__link:hover, site-nav__link:focus {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.benefits-list .text {
+.benefit__text {
   color: var(--secendery-text-color);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-.benefit-item::before {
+.benefit__item::before {
   content: "";
   display: block;
   width: 270px;
@@ -316,7 +313,7 @@ site-nav__link:hover, site-nav__link:focus {
   margin-left: calc(-1 * var(--card-item-gap));
   margin-top: calc(-1 * var(--card-item-gap));
 }
-.card-set > .benefit-item {
+.card-set > .benefit__item {
   flex-basis: calc(25% - var(--card-item-gap));
   margin-left: var(--card-item-gap);
   margin-top: var(--card-item-gap);
@@ -338,7 +335,7 @@ site-nav__link:hover, site-nav__link:focus {
   background-image: url(../img/icon/diagram.svg);
 }
 
-.card-set > .work-item {
+.card-set > .work__item {
   flex-basis: calc(33.3333333333% - var(--card-item-gap));
   margin-left: var(--card-item-gap);
   margin-top: var(--card-item-gap);
@@ -348,11 +345,11 @@ site-nav__link:hover, site-nav__link:focus {
   padding-bottom: var(--section-padding-gap);
 }
 
-.work-product-thumb {
+.work__product-thumb {
   position: relative;
 }
 
-.work-product-text {
+.work__product-text {
   position: absolute;
   background-color: rgba(47, 48, 58, 0.8);
   width: 370px;

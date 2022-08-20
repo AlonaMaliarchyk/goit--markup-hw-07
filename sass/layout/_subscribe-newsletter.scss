@@ -39,7 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    @extend %hero-button;
+    @extend %hero__button;
     &:hover,
     &:focus {
     background-color: #188CE8;

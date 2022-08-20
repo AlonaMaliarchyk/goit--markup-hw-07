@@ -201,7 +201,7 @@ textarea {
     color: var(--white);
     min-width: 200px;
     text-align: center;
-    @extend %hero-button;
+    @extend %hero__button;
     margin-left: auto;
     margin-right: auto;
     text-align: center;

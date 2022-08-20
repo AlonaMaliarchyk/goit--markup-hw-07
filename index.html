@@ -26,32 +26,32 @@
       <div class="container header">
         <div class="header-logo-nav-container">
           <div class="header-logo">
-            <a lang="en" href="./index.html" class="header-logo__logo link">
+            <a lang="en" href="./index.html" class="header-logo__logo">
               <span class="header-logo__color">Web</span>Studio
             </a>
           </div>
           <nav>
-            <ul class="site-nav list">
+            <ul class="site-nav">
               <li class="site-nav__item">
-                <a class="site-nav__link link current" href="./index.html">Студія</a>
+                <a class="site-nav__link current" href="./index.html">Студія</a>
               </li>
               <li class="site-nav__item">
-                <a class="site-nav__link link" href="./portfolio.html">Портфоліо</a>
+                <a class="site-nav__link" href="./portfolio.html">Портфоліо</a>
               </li>
               <li class="site-nav__item">
-                <a class="site-nav__link link" href="Контакты">Контакти</a>
+                <a class="site-nav__link" href="Контакты">Контакти</a>
               </li>
             </ul>
           </nav>
         </div>
         <div class="header-contact">
-          <a class="link header-contact__contact" href="mailto:info@devstudio.com"
+          <a class="header-contact__contact" href="mailto:info@devstudio.com"
             ><svg class="header-contact__icon">
               <use href="./img/icon/icons.svg#icon-envelope-hover-2"></use>
             </svg>
             info@devstudio.com</a
           >
-          <a class="link header-contact__contact" href="tel:+380961111111"
+          <a class="header-contact__contact" href="tel:+380961111111"
             ><svg class="header-contact__icon">
               <use href="./img/icon/icons.svg#icon-smartphone-2"></use>
             </svg>
@@ -66,8 +66,8 @@
         <div class="overlay">
           <div class="container">
             <div class="hero-title-container">
-              <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-              <button type="button" class="hero-button" data-modal-open>Замовити послугу</button>
+              <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+              <button type="button" class="hero__button" data-modal-open>Замовити послугу</button>
             </div>
           </div>
         </div>
@@ -76,26 +76,28 @@
         <!--О нас-->
         <div class="container">
           <h2 class="visually-hidden">benefits</h2>
-          <ul class="benefits-list list card-set">
-            <li class="benefit-item antenna-icon">
-              <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="text">
+          <ul class="benefit card-set">
+            <li class="benefit__item antenna-icon">
+              <h3 class="benefit__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="benefit__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
-            <li class="benefit-item clock-icon">
-              <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="text">
+            <li class="benefit__item clock-icon">
+              <h3 class="benefit__title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="benefit__text">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
-            <li class="benefit-item diogram-icon">
-              <h3 class="title">ПЛАНУВАННЯ</h3>
-              <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
+            <li class="benefit__item diogram-icon">
+              <h3 class="benefit__title">ПЛАНУВАННЯ</h3>
+              <p class="benefit__text">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
             </li>
-            <li class="benefit-item astronaut-icon">
-              <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="text">
+            <li class="benefit__item astronaut-icon">
+              <h3 class="benefit__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="benefit__text">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
             </li>
@@ -106,33 +108,33 @@
         <!--Чем мы занимаемся-->
         <div class="container">
           <h2 class="pretitle work text-centered">Чим ми займаємося</h2>
-          <ul class="list card-set">
-            <li class="work-item">
-              <div class="work-product-thumb">
-                <div class="work-product">
+          <ul class="work__list card-set">
+            <li class="work__item">
+              <div class="work__product-thumb">
+                <div class="work__product">
                   <img src="./img/we_do/about_img1.jpg" alt="планируем" width="370" height="294" />
-                  <p class="work-product-text">Десктопні додатки</p>
+                  <p class="work__product-text">Десктопні додатки</p>
                 </div>
               </div>
             </li>
-            <li class="work-item">
-              <div class="work-product-thumb">
-                <div class="work-product">
+            <li class="work__item">
+              <div class="work__product-thumb">
+                <div class="work__product">
                   <img
                     src="./img/we_do/about_img2.jpg"
                     alt="конструируем"
                     width="370"
                     height="294"
                   />
-                  <p class="work-product-text">Мобільні додатки</p>
+                  <p class="work__product-text">Мобільні додатки</p>
                 </div>
               </div>
             </li>
-            <li class="work-item">
-              <div class="work-product-thumb">
-                <div class="work-product">
+            <li class="work__item">
+              <div class="work__product-thumb">
+                <div class="work__product">
                   <img src="./img/we_do/about_img3.jpg" alt="рисуем" width="370" height="294" />
-                  <p class="work-product-text">Дизайнерські рішення</p>
+                  <p class="work__product-text">Дизайнерські рішення</p>
                 </div>
               </div>
             </li>
@@ -143,7 +145,7 @@
         <!--Наша команда-->
         <div class="container">
           <h2 class="pretitle team text-centered">Наша команда</h2>
-          <ul class="team list card-set">
+          <ul class="team card-set">
             <li class="team-item">
               <img
                 src="./img/team/team_img1.jpg"
@@ -154,7 +156,7 @@
               <div class="padding-team">
                 <h3 class="team title">Ігор Дем'яненко</h3>
                 <p class="team text">Product Designer</p>
-                <ul class="icon-team list">
+                <ul class="icon-team">
                   <li>
                     <a href="" class="icon-social">
                       <svg class="icon" width="20" height="20">
@@ -196,7 +198,7 @@
               <div class="padding-team">
                 <h3 class="team title">Ольга Рєпіна</h3>
                 <p class="team text">Frontend Developer</p>
-                <ul class="icon-team list">
+                <ul class="icon-team">
                   <li>
                     <a href="" class="icon-social">
                       <svg class="icon" width="20" height="20">
@@ -238,7 +240,7 @@
               <div class="padding-team">
                 <h3 class="team title">Микола Тарасов</h3>
                 <p class="team text">Marketing</p>
-                <ul class="icon-team list">
+                <ul class="icon-team">
                   <li>
                     <a href="" class="icon-social">
                       <svg class="icon" width="20" height="20">
@@ -280,7 +282,7 @@
               <div class="padding-team">
                 <h3 class="team title">Михайло Єрмаков</h3>
                 <p class="team text">UI Designer</p>
-                <ul class="icon-team list">
+                <ul class="icon-team">
                   <li>
                     <a href="" class="icon-social">
                       <svg class="icon" width="20" height="20">
@@ -318,7 +320,7 @@
       <section class="customers">
         <div class="container">
           <h2 class="pretitle">Постійні клієнти</h2>
-          <ul class="all-customers list">
+          <ul class="all-customers">
             <li>
               <a class="icons-customers" href="">
                 <svg class="icon" width="106" height="60">
@@ -371,15 +373,15 @@
         <div class="footer-info-container">
           <div class="footer-logo-contacts-container">
             <div class="footer-logo-container">
-              <a lang="en" href="./index.html" class="footer-logo link">
+              <a lang="en" href="./index.html" class="footer-logo">
                 <span class="footer-color">Web</span>Studio
               </a>
             </div>
             <address class="contacts-address">
-              <ul class="footer-contact list">
+              <ul class="footer-contact">
                 <li class="contact-margin">
                   <a
-                    class="footer-address link"
+                    class="footer-address"
                     href="https://goo.gl/maps/D4AeKFE9MHxPDFGb8"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -388,19 +390,17 @@
                   </a>
                 </li>
                 <li class="contact-margin">
-                  <a class="footer-contact link" href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
-                  >
+                  <a class="footer-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
-                  <a class="footer-contact link" href="tel:+380961111111">+38 096 111 11 11</a>
+                  <a class="footer-contact" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
               </ul>
             </address>
           </div>
           <div class="footer-social-join">
             <h2 class="join-now">приєднуйтесь</h2>
-            <ul class="icon-join list">
+            <ul class="icon-join">
               <li>
                 <a class="icon-footer" href="">
                   <svg class="footer-icon-sotial" width="20" height="20">

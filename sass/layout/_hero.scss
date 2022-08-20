@@ -6,7 +6,7 @@
         margin: 0 auto;
     }
 
-        &-title {
+        &__title {
         color: #FFFFFF;
         font-weight: 900;
         font-size: 44px;
@@ -17,14 +17,14 @@
         margin-bottom: 30px;
     }
 
-        &-button:hover,
-        &-button:focus {
+        &__button:hover,
+        &__button:focus {
             background-color: #188CE8;
         }
     }
 
-    .hero-button {
-   @extend %hero-button;}
+    .hero__button {
+   @extend %hero__button;}
 
 
 
