@@ -1,8 +1,8 @@
-.all-customers {
+.customers__list {
     display: flex;
 }
 
-.icons-customers {
+.customers-icons {
     width: 170px;
     height: 92px;
     border: 1px solid rgba(175, 177, 184, 1);
@@ -22,7 +22,7 @@
 }
 
 
-.icons-customers:hover svg,
-.icons-customers:focus svg {
+.customers-icons:hover svg,
+.customers-icons:focus svg {
     fill: var(--accent-color);
 }
